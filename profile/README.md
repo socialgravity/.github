@@ -25,7 +25,7 @@ No account, no key, no permission from us. One command, thirty seconds:
 deno run --allow-net https://socialgravity.ai/docs/verify.js --license LDNAEEDY5UB
 ```
 
-Real output, trimmed to four of the nineteen checks:
+Real output, trimmed to four of its checks:
 
 ```text
 SocialGravity receipt verification: licence LDNAEEDY5UB
