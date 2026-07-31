@@ -36,4 +36,3 @@ You will be credited either way.
 - A claim goes in only if the code or the published data proves it. If it needs an asterisk,
   it does not go in.
 - Code changes to the verifier need a test. `deno test --allow-read verifier/` must stay green.
-</content>

@@ -40,4 +40,3 @@ itself, and do not use real third-party identities in your testing.
 Report privately, give us a reasonable window to fix, then publish whatever you like. We will
 not ask you to stay quiet and we will credit you unless you prefer otherwise. If a finding
 means something we published was overclaimed, the correction gets published too.
-</content>

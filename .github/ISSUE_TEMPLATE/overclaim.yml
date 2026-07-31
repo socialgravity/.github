@@ -1,0 +1,24 @@
+name: Overclaim
+description: Something we published claims more than the code or the data actually proves
+labels: ["honesty", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We would rather publish a caveat than an asterisk. If a README, a docs page or a spec
+        section is stronger than what is actually provable, tell us and we will correct it in
+        public.
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: File, page or endpoint.
+      placeholder: receipts/README.md, "Honesty notes"
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: The claim, and what is actually true
+    validations:
+      required: true

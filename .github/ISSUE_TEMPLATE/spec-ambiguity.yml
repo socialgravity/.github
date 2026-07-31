@@ -1,0 +1,28 @@
+name: Spec ambiguity or defect
+description: A part of the spec could be read two ways, or does not match what the API actually does
+labels: ["spec", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If two competent readers could canonicalise the same receipt into different bytes, that
+        is a defect and not a nitpick. Same if the spec claims something the code does not do.
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      placeholder: "4.2, canonical bytes"
+    validations:
+      required: true
+  - type: textarea
+    id: reading
+    attributes:
+      label: The two readings, or the mismatch
+      description: What the text says, and what you observed or would have implemented.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested wording
+      description: Optional. Plain prose, no marketing voice, no em dashes.

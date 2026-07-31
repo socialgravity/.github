@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/socialgravity/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Email alvaro@socialgravity.ai or open a private advisory.
+  - name: Receipt spec v1
+    url: https://github.com/socialgravity/receipts/blob/main/docs/receipt-spec-v1.md
+    about: The normative format. Section 4 has the canonical byte rules.
+  - name: Verify a licence yourself
+    url: https://socialgravity.ai/docs
+    about: Run the verifier against a live record before filing, so we can compare output.

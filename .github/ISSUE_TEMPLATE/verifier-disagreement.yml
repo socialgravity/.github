@@ -1,0 +1,38 @@
+name: Verifier disagreement
+description: Your implementation and ours reach different conclusions about the same receipt
+labels: ["verifier", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is the most valuable report we can get. If two implementations disagree, one of
+        them is wrong, and we would rather find out that it is ours.
+  - type: input
+    id: license
+    attributes:
+      label: Licence id
+      description: The record both implementations were checking. Public ids are fine here.
+      placeholder: LDNAEEDY5UB
+    validations:
+      required: true
+  - type: input
+    id: check
+    attributes:
+      label: Which check
+      description: The check name as our verifier prints it, if you know it.
+      placeholder: licence canonical bytes
+  - type: textarea
+    id: ours
+    attributes:
+      label: What our verifier printed
+      description: Paste the relevant lines from `deno run --allow-net verifier/verify.ts --license <id>`.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: yours
+    attributes:
+      label: What your implementation concluded, and how
+      description: Your bytes, your hash, your reasoning. Canonical byte strings are especially useful.
+    validations:
+      required: true

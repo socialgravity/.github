@@ -68,17 +68,19 @@ The verifier fetches only public endpoints and does every check locally against 
 
 ## What a receipt links
 
-```mermaid
-flowchart LR
-  P["person<br/><sub>verified identity</sub>"] --> A["asset<br/><sub>face, voice</sub>"]
-  A --> L["licence<br/><sub>signed terms</sub>"]
-  L --> G["generation<br/><sub>authorised use</sub>"]
-  G --> O["output<br/><sub>watermarked file</sub>"]
-```
+**person → asset → licence → generation → output**
 
-Five links. Each one is a signed record in an append-only transparency log, and the log's head
-is timestamped by an independent authority and mirrored to a public repository. So the answer
-to "did this person agree to this" is a check you can run, not an email you have to believe.
+| # | Link | What is on the record |
+|---|---|---|
+| 1 | **person** | A verified human, and the evidence of what they agreed to |
+| 2 | **asset** | A fingerprinted version of their face or voice |
+| 3 | **licence** | Signed terms: which assets, which use, which channels, which territories, for how long |
+| 4 | **generation** | An authorised use, metered against those terms |
+| 5 | **output** | The file that came out, watermarked and registered |
+
+Each link is a signed record in an append-only transparency log. The log's head is timestamped
+by an independent authority and mirrored to a public repository. So the answer to "did this
+person agree to this" is a check you can run, not an email you have to believe.
 
 ## Why part of this is public
 
@@ -114,4 +116,3 @@ We would rather publish the caveat than the asterisk.
 - API: `https://id.socialgravity.ai/functions/v1`
 - Security reports: [SECURITY.md](https://github.com/socialgravity/.github/blob/main/SECURITY.md)
 - Contact: [alvaro@socialgravity.ai](mailto:alvaro@socialgravity.ai)
-</content>
