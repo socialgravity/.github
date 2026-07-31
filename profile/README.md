@@ -49,13 +49,13 @@ link 3: licence
   PASS           licence signature
                  Ed25519 verified against the pinned key
 
-VERDICT: INCOMPLETE. 16 passed, 0 failed, 3 not checkable. Nothing contradicted the
+VERDICT: INCOMPLETE. 16 passed, 0 failed, 4 not checkable. Nothing contradicted the
 receipt, but the lines above marked NOT CHECKABLE are assertions or unavailable data,
 not proofs.
 ```
 
 That is a real licence held by a real, document-verified person, and our own showcase run says
-**INCOMPLETE**. It says so because three of its checks are ours to assert rather than yours to
+**INCOMPLETE**. It says so because some of its checks are ours to assert rather than yours to
 confirm, and the tool will not launder that into a green tick. Three outcomes per check: PASS,
 FAIL, or NOT CHECKABLE. A verifier that never says "I cannot check this" is not a verifier, it
 is a logo.
@@ -90,6 +90,10 @@ A receipt you have to trust us about is not a receipt. So the proof layer is ope
 |---|---|
 | [**receipts**](https://github.com/socialgravity/receipts) | The receipt format, its JSON Schema, the API surface, and a zero-dependency verifier you can run yourself. Code Apache-2.0, spec CC BY 4.0. Implement it independently, that is the point. |
 | [**ledger-anchors**](https://github.com/socialgravity/ledger-anchors) | Head hashes of our append-only ledger, mirrored where we cannot quietly rewrite them. A witness against our own future selves. |
+
+We also keep a [journal](https://github.com/socialgravity/receipts/tree/main/journal) of what
+has shipped. One rule there: every post ends in a command or a URL that returns a real result,
+including when the result is inconclusive.
 
 ## Why the rest is not
 
