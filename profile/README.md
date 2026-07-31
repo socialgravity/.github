@@ -2,7 +2,7 @@
 
 # SocialGravity
 
-**The licensing layer for human identity.**
+**Licensing human likeness.**
 
 A person verifies their face and voice, sets their terms, and licenses them for AI generated
 content. Every authorised use carries a cryptographic receipt.
