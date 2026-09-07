@@ -17,6 +17,15 @@ content. Every authorised use carries a cryptographic receipt.
 
 ---
 
+## Research on AI face and voice licensing
+
+SocialGravity.ai publishes research on permission, contract scope, disclosure and provenance for AI use of a real person's face or voice.
+
+Our [State of AI Identity Licensing 2026](https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026) reviews 14 selected primary sources through September 5, 2026. It distinguishes enacted law, proposed legislation, government guidance, collective agreements and technical standards. It is a bounded review, not a global law census or legal advice.
+
+- [Read the methodology and source notes](https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026/methodology).
+- [Download the source dataset as JSON](https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026/data.json) or [CSV](https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026/data.csv).
+
 ## Check one of our receipts yourself
 
 No account, no key, no permission from us. One command, thirty seconds:
@@ -121,3 +130,4 @@ We would rather publish the caveat than the asterisk.
 - API: `https://id.socialgravity.ai/functions/v1`
 - Security reports: [SECURITY.md](https://github.com/socialgravity/.github/blob/main/SECURITY.md)
 - Contact: [alvaro@socialgravity.ai](mailto:alvaro@socialgravity.ai)
+
