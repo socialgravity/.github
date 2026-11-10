@@ -49,6 +49,7 @@ assertion into proof when the evidence is unavailable.
 - [Evaluate an AI likeness licensing platform](https://socialgravity.ai/resources/ai-likeness-licensing-platform-evaluation).
 - [Review the State of AI Identity Licensing 2026 dataset](https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026).
 - [Read the source notes and methodology](https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026/methodology).
+- [Inspect the versioned research files](https://github.com/socialgravity/state-of-ai-identity-licensing-2026) or [cite the archived release](https://doi.org/10.5281/zenodo.24089413).
 - [Understand content provenance and permission](https://socialgravity.ai/glossary/content-provenance).
 
 ## Product boundary
